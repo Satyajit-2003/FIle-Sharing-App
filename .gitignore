@@ -260,6 +260,9 @@ poetry.toml
 pyrightconfig.json
 
 #custom
-static/uploads
+static/uploads/user/*
+!static/uploads/user/.gitkeep
+static/uploads/*.*
+!static/uploads/.gitkeep
 
 # End of https://www.toptal.com/developers/gitignore/api/python,flask
